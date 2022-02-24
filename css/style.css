@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:wght@300&family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Open+Sans:wght@300&family=Raleway:wght@100&family=Redressed&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #27242b;
+    height: 795px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("/assets/img/SAYNA_Horizontal_-_Blanc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 320px;
+    height: 123px;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: -20px;
+}
+
+hr {
+    color: #7e7e7e;
+}
+
+a.htag {
+    color: #FFFFFF;
+    font-size: 12px;
+    text-shadow: 3px;
+    font-family: " Open Sans", Arial, sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    margin-left: auto;
+}
+
+a.tag {
+    color: #3d9f96;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-right: 40px;
+}
+
+.first-content {
+    text-align: center;
+    padding: 60px;
+}
+
+#title {
+    height: 20px;
+    color: #3d9f96;
+}
+
+#tag {
+    text-decoration: underline;
+    color: #3d9f96;
+}
+
+h3 {
+    color: #3d9f96;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.new {
+    font-size: 35px;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+input {
+    background-color: rgb(135, 222, 222);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    border-color: rgb(135, 222, 222);
+    font-size: 15px;
+}
+
+.sit {
+    position: relative;
+    margin: 17px;
+    width: 60%;
+    margin-left: 32%;
+}
+
+img {
+    width: 63%;
+}
+
+.icon {
+    width: 35px;
+    margin: 20px;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(73, 150, 150);
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.app {
+    text-align: center;
+    padding: 100px;
+}
+
+span {
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 20px;
+}
+
+#put {
+    padding: 35px;
+    color: black;
+    font-size: 17px;
+}
+
+.font-icon {
+    width: 10px;
+}
+
+.social-icon {
+    width: 25px;
+}
+
+.new-app {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("/img/map_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    height: 100%;
+    background-image: url("/img/seperator1-.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iphone {
+    position: relative;
+    width: 100%;
+}
+
+.section2 {
+    position: relative;
+    margin-left: 3%;
+}
+
+.font-icon {
+    display: flex;
+    align-items: center;
+}
+
+.section1 {
+    margin-left: 150px;
+}
+
+.section3 {
+    margin-right: 180px;
+}
+
+.para {
+    color: #292828;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+h2 {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.box1 {
+    padding: 60px;
+}
+
+.circl {
+    position: relative;
+    width: 100px;
+    margin-left: 530px;
+}
+
+.new-sectiopn {
+    border-color: #292828;
+}
+
+.box2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.form {
+    position: relative;
+    margin-left: 17%;
+    padding: 3%;
+}
+
+.Screenshots {
+    width: 220px;
+    padding: 4px;
+}
+
+.figure {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+.figure figcaption {
+    position: relative;
+    margin-left: 3%;
+    font-family: sans-serif;
+}
+
+#pat,
+#pot {
+    color: black;
+    font-size: 17px;
+}
+
+.mac {
+    width: 320px;
+}
+
+.test1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 7%;
+}
+
+.test2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+}
+
+.big {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dad8d860;
+    padding: 3%;
+}
+
+.info {
+    padding: 3%;
+}
+
+.contact {
+    padding: 3%;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Raleway", Arial, sans-serif;
+    color: #292828;
+}
+
+address {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+.mini {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    width: 100%;
+}
